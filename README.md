@@ -16,11 +16,12 @@ conditional clauses like IF EXISTS and IF NOT EXISTS helps prevent errors and en
 
 
 
-## day 02 - 
+## day 02 -  BASIC COMMANDS
 
 Today i learned about :
 
 CREATE DATABASE - make a new database 
+
 analogy :
 - think it like a folder
 - files inside them are tables
