@@ -1,7 +1,12 @@
-intro:- sql is a structured query language used to interact with relational databases 
+INTRODUCTION:
+Database is a container where the data is stored in a organised way which can be easily accessed.
+
+a software application which helps to manages the database is called as database management system
+
+sql is a structured query language used to interact with relational databases 
 it performs crud operations such as create,read,update,delete.
 
-## Day 01 – Database Commands
+## Day 01 – DATABASE COMMANDS
 
 Today I learned how to:
 
