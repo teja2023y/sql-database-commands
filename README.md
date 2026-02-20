@@ -29,7 +29,7 @@ CREATE DATABASE - make a new database
 
 analogy :
 - think it like a folder
-- files inside them are tables
+- files inside folder are tables
 - rows are like content in it.
 
 USE - tells sql which database you want to work.
