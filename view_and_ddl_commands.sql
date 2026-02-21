@@ -19,12 +19,12 @@ INSERT INTO gym_items(customerID,customerName,Age,Item_Purchased,price)
  
  SELECT * FROM gym_items;
  
- CREATE VIEW new_buyer AS
+ CREATE VIEW high_class AS
  SELECT customerID,Item_Purchased
  FROM gym_items
  WHERE price>=546;
  
-SELECT  * FROM new_buyer;
+SELECT  * FROM high_class;
  
 ALTER TABLE gym_items
 ADD COLUMN gym_name VARCHAR(100) NOT NULL; 
@@ -41,7 +41,6 @@ AUTO_INCREMENT;
 
 SELECT * FROM gym_items;
  
- 
 RENAME TABLE gym_items TO GYM_ESSENTIALS;
  
 SELECT * FROM GYM_ESSENTIALS;
@@ -49,4 +48,5 @@ SELECT * FROM GYM_ESSENTIALS;
 TRUNCATE TABLE GYM_ESSENTIALS;
  
 DROP TABLE GYM_ESSENTIALS;
+
  
